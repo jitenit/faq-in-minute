@@ -8,11 +8,11 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plug-in is useful for creating faq(frequently asked questions) in any website with latest design pattern. 
-create and display your Faq(frequently asked questions) in Just minute for Free.
+This plug-in is useful for creating faq in any website with latest design pattern. 
+create and display your Faq in Just minute for Free.
 
 == Description ==
-FAQ in minute is plugin for displaying your FAQ in website. Active Plugin and create all faq with admin panel. just user our short codes to display faq in website pages or in post. 
+FAQ in minute is plugin for displaying your FAQ(frequently asked questions) in website. Active Plugin and create all faq with admin panel. just user our short codes to display faq in website pages or in post. 
 
 use [showallfaq] Or [faq-in-minute] for displaying all FAQ in pages/post.
 
@@ -20,7 +20,7 @@ You can also display Faq with Category for that follow below short codes
 [showallfaq category ="categoryname"]
 for ex if your category name is news then assign news to any faq. and then display news faq on website using [showallfaq category="news"] .
 
-Our Main Functionality is Unique Design for FAQ. Best design for faq. Display faq via our plugin and make your website more attractive. 
+Our Main Functionality is Unique Design for FAQ (frequently asked questions) . Best design for faq. Display faq via our plugin and make your website more attractive. 
 
 For any type of query or suggestions you can contact us any time. this 
 
