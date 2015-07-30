@@ -52,6 +52,10 @@
         background-size: auto 100%;
     }
 
+    .cursor-desing{
+        cursor: pointer;
+    }
+
 </style>
 <div id="container">
     <div id="content">
@@ -95,7 +99,7 @@
 
                 <div class="col-md-12 no-padding">
                     <div class="panel">
-                        <div class="panel-heading clickable <?php echo $color_fim[$i] ?>">
+                        <div class="panel-heading clickable <?php echo $color_fim[$i] ?> cursor-desing">
                             <h3 class="panel-title">
         <?php echo get_the_title($np_id); ?>
                             </h3>
