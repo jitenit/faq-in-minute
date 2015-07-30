@@ -66,6 +66,12 @@ set faq with limit base. ex if you want to show only 1 faq then [showallfaq limi
 3. Display Faq with Category wise
 
 == Changelog ==
+
+= 1.1 =
+* Fixed js issue in page.
+* Minor updates to Plugins details.
+
+= 1.0 =
 initial release 
 display all Faq in page/post
 faq with category base structure
