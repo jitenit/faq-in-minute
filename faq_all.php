@@ -122,7 +122,7 @@ function faq_im_scripts() {
 
     wp_enqueue_style('bootstrapmin');
 
-     wp_enqueue_script('myjs', plugin_dir_url( 'js/bootstrap.min.js' , __FILE__), array( 'jquery' ), true);
+    wp_enqueue_script('myjs', plugins_url( 'js/bootstrap.min.js' , __FILE__), array( 'jquery' ) , true);
 }
 
 add_action('wp_enqueue_scripts', 'faq_im_scripts');
