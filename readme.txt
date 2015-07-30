@@ -14,11 +14,11 @@ create and display your Faq in Just minute for Free.
 == Description ==
 FAQ in minute is plugin for displaying your FAQ(frequently asked questions) in website. Active Plugin and create all faq with admin panel. just user our short codes to display faq in website pages or in post. 
 
-use [showallfaq] Or [faq-in-minute] for displaying all FAQ in pages/post.
+use <code>[showallfaq]</code> Or <code>[faq-in-minute]</code> for displaying all FAQ in pages/post.
 
 You can also display Faq with Category for that follow below short codes
-[showallfaq category ="categoryname"]
-for ex if your category name is news then assign news to any faq. and then display news faq on website using [showallfaq category="news"] .
+[faq-in-minute category ="categoryname"]
+for ex if your category name is news then assign news to any faq. and then display news faq on website using [faq-in-minute category="news"] .
 
 Our Main Functionality is Unique Design for FAQ (frequently asked questions) . Best design for faq. Display faq via our plugin and make your website more attractive. 
 
@@ -30,11 +30,11 @@ Display limit faq in your website. using this short code  [faq-in-minute limit="
 
 So overall all usefull short-codes are below for Frequetly Asked questions For Your Wordpress website 
 
-For all faq -  [faq-in-minute]
+For all faq -  <code>[faq-in-minute]</code>
 
-display faq of test category - [faq-in-minute category="test"]
+display faq of test category - <code>[faq-in-minute category="test"]</code>
 
-display latest 3 faq only - [faq-in-minute limit="3"]
+display latest 3 faq only - <code>[faq-in-minute limit="3"]</code>
 
 == Installation ==
 This section describes how to install the plugin and get it working.
@@ -49,7 +49,7 @@ How to Create FAQ ->
 Simple active plugin. go to admin panel. => faq in minute=> add/edit/delte new Faq
 
 how to dispaly FAQ in website 
-=> just use [showallfaq] or [faq-in-minute] to display list of all FAQ. 
+=> just use [showallfaq] or <code>[faq-in-minute]</code> to display list of all FAQ. 
 
 is this plugin is free 
 => yes this plugin is totally free. 
@@ -68,7 +68,7 @@ set faq with limit base. ex if you want to show only 1 faq then [showallfaq limi
 == Changelog ==
 
 = 1.1 =
-* Fixed js issue in page.
+* Fixed js Conflict issue in page.
 * Minor updates to Plugins details.
 
 = 1.0 =
