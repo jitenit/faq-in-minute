@@ -36,6 +36,10 @@ display faq of test category - <code>[faq-in-minute category="test"]</code>
 
 display latest 3 faq only - <code>[faq-in-minute limit="3"]</code>
 
+display Faq order by ASC and default order is DESC - <code>[faq-in-minute order="ASC"]</code>
+
+display general category faq with order by asc and limit is 3 <code>[faq-in-minute category="general" limit="3" order="ASC"]</code>
+
 == Installation ==
 This section describes how to install the plugin and get it working.
 
@@ -66,6 +70,10 @@ set faq with limit base. ex if you want to show only 1 faq then [showallfaq limi
 3. Display Faq with Category wise
 
 == Changelog ==
+
+
+= 1.2 =
+* Now easy to set order of Faq ASC/DESC. Default is DESC.
 
 = 1.1 =
 * Fixed js Conflict issue in page.
