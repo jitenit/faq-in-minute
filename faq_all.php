@@ -92,6 +92,7 @@ function faq_in_minute_shortcut($atts) {
     extract(shortcode_atts(array(
         "limit" => '',
         "category" => '',
+        "order"=> '',
                     ), $atts));
 
     // Define limit
@@ -105,6 +106,12 @@ function faq_in_minute_shortcut($atts) {
         $cat = $category;
     } else {
         $cat = '';
+    }
+
+     if ($order) {
+        $ord = $order;
+    } else {
+        $ord = 'DESC';
     }
 
 
