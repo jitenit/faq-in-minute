@@ -69,7 +69,7 @@
             'category' => '',
             'category_name' => $cat,
             'orderby' => 'post_date',
-            'order' => 'DESC',
+            'order' => $ord,
             'include' => '',
             'exclude' => '',
             'meta_key' => '',
