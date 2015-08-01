@@ -64,10 +64,11 @@
 
         <?php
         $args = array(
-            'posts_per_page' => $limit,
+            'posts_per_page' => $posts_per_page,
             'offset' => 0,
             'category' => '',
             'category_name' => $cat,
+            'faqcategory'=>$faqcat,
             'orderby' => 'post_date',
             'order' => $ord,
             'include' => '',
@@ -81,7 +82,11 @@
         );
         $all_data = get_posts($args);
 
+      // echo '<pre>' ;   print_r($all_data) ; 
+
         $post_data_new = get_post($p_id);
+        
+    // echo '<pre>' ;   print_r($post_data_new) ; 
         $i = 0;
         $count = 0;
 
