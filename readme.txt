@@ -40,6 +40,11 @@ display Faq order by ASC and default order is DESC - <code>[faq-in-minute order=
 
 display general category faq with order by asc and limit is 3 <code>[faq-in-minute category="general" limit="3" order="ASC"]</code>
 
+display faq of mycategory faqcategory - <code>[faq-in-minute faqcategory="mycategory"]</code>
+
+so for latest version we have added faqcategory . so using this you can create personal faqcategory and display faq from faqcategory wise too.
+
+
 == Installation ==
 This section describes how to install the plugin and get it working.
 
@@ -71,6 +76,9 @@ set faq with limit base. ex if you want to show only 1 faq then [showallfaq limi
 
 == Changelog ==
 
+= 1.3 =
+* now admin can give shortcode of faqcategory.
+* fix number of faq issue in page and now category and faqcategory both working. 
 
 = 1.2 =
 * Now easy to set order of Faq ASC/DESC. Default is DESC.
