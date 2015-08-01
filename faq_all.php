@@ -4,7 +4,7 @@
  * Plugin Name: faq in minute
  * Plugin URI: twitter.com/jitendra_popat
  * Description: Create your Faq in just minute. active plugin.go to admin. add new FAQ. and just simple paste this [showallfaq] in your page or in post. use [showallfaq] or [faq-in-minute] to display list of all FAQ. FAQ with modern Design. And for category base [showallfaq category="categoryname"]
- * Version: 1.2
+ * Version: 1.3
  * Author: Jiten IT - Jitendra
  * Author URI: twitter.com/jitendra_popat
  */
@@ -92,6 +92,7 @@ function faq_in_minute_shortcut($atts) {
     extract(shortcode_atts(array(
         "limit" => '',
         "category" => '',
+        "faqcategory"=>'',
         "order"=> '',
                     ), $atts));
 
@@ -101,7 +102,7 @@ function faq_in_minute_shortcut($atts) {
     } else {
         $posts_per_page = '-1';
     }
-    // Define limit
+    // Define category
     if ($category) {
         $cat = $category;
     } else {
@@ -114,6 +115,12 @@ function faq_in_minute_shortcut($atts) {
         $ord = 'DESC';
     }
 
+
+if ($faqcategory) {
+        $faqcat = $faqcategory;
+    } else {
+        $faqcat = '';
+    }
 
     include('faq.php');
 }
